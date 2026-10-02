@@ -1,0 +1,375 @@
+html {
+  font-size: clamp(1rem, calc(0.5rem + 1vw), 4rem);
+}
+
+h1, h2, h3, h4, h5{
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    line-height: 1.15;
+}
+
+body{
+    background-color: #A1A1A1;
+}
+
+header{
+    background-color: #D83A32;
+    padding: 0 4vw 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 29%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 2vw;
+    align-items: center;
+}
+
+header nav ul li a{
+    font-size: 0.75rem;
+    padding: 2px;
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+
+header nav ul li a:hover{
+    color: #E86F31;
+}
+
+section.banner{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+
+section.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+section.banner div.banner{
+    position: absolute;
+    left: 10%;
+    bottom: 25%;
+    background-color: rgba(211, 211, 211, 0.3);
+    padding: 10px 20px;
+}
+
+section.banner h1{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+section.processos{
+    text-align: center;
+}
+
+section.processos h2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #D83A32;
+    margin: 3vw;
+    padding: 1vw 2vw;
+    background-color: rgba(209, 204, 196, 0.7);
+    display: inline-block;
+}
+
+section.processos >div{
+    background-color: #D6D0C8;
+    text-align: left;
+    border-radius: 2vw;
+    padding: 3vw;
+}
+
+section.processos div.fundo div.maior{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+    gap: 3vw;
+}
+
+section.processos div.fundo div.maior img{
+    width: 50%;
+    height: 50%;
+    padding: 3vw;
+}
+
+section.processos div.fundo div.maior div.texto{
+    width: 50%;
+}
+
+section.processos div.fundo div.maior div.texto h3{
+    padding: 3vw;
+    font-size: 1.2rem;
+}
+
+section.processos div.fundo div.maior div.texto p{
+    padding: 0 3vw 3vw 3vw;
+}
+
+section.processos div.fundo hr.linha{
+    color: #EBBA3B;
+    margin: 2vw 2vw 3vw 2vw;
+    border: 1px solid #EBBA3B;
+}
+
+section.diferenca{
+    text-align: center;
+}
+
+section.diferenca h2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #D83A32;
+    margin: 3vw;
+    padding: 1vw 2vw;
+    background-color: rgba(209, 204, 196, 0.7);
+    display: inline-block;
+}
+
+section.diferenca >div{
+    background-color: #D6D0C8;
+    text-align: left;
+    border-radius: 2vw;
+    padding: 3vw;
+}
+
+section.diferenca div.fundo p{
+    padding: 3vw 8vw;
+}
+
+section.diferenca div.fundo ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw; 
+   padding: 3vw 5vw;
+}
+
+section.diferenca div.fundo ul li{
+    background-color: #A1A1A1;
+    text-align: center;
+    border-radius: 3vw;
+    width: 40%;
+
+}
+
+section.diferenca div.fundo ul li h3{
+    font-size: 1.18rem;
+    border-bottom: 2px solid #E86F31;
+    margin: 2vw;
+}
+
+section.diferenca div.fundo ul li p{
+    padding: 0 2vw 2vw 2vw;
+    font-size: 0.9rem;
+}
+
+section.diferenca div.fundo hr.linha{
+    color: #EBBA3B;
+    margin: 2vw 2vw 3vw 2vw;
+    border: 1px solid #EBBA3B;
+}
+
+section.diferenca div.fundo img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+section.gases{
+    text-align: center;
+}
+
+section.gases h2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #D83A32;
+    margin: 3vw;
+    padding: 1vw 2vw;
+    background-color: rgba(209, 204, 196, 0.7);
+    display: inline-block;
+}
+
+section.gases >div{
+    background-color: #D6D0C8;
+    text-align: left;
+    border-radius: 2vw;
+    padding: 3vw;
+}
+
+section.gases div.fundo div{
+    padding: 2vw;
+}
+
+section.gases div.fundo div p{
+    padding: 1vw;
+}
+
+section.gases div.fundo hr.linha{
+    color: #EBBA3B;
+    margin: 2vw 2vw 3vw 2vw;
+    border: 1px solid #EBBA3B;
+}
+
+section.gases div.fundo img{
+    width: 60%;
+    height: 50%;
+    display: block;
+    margin: auto;
+    padding: 2vw;
+}
+
+section.video{
+    text-align: center;
+}
+
+section.video div{
+    background-color: #D6D0C8;
+    border-radius: 2vw;
+    padding: 3vw;
+    margin-top: 7vw;
+}
+
+section.video div.fundo hr.linha{
+    color: #EBBA3B;
+    margin: 2vw 2vw 2vw 2vw;
+    border: 1px solid #EBBA3B;
+}
+
+section.video div.fundo div.video{
+    padding: 0 1vw 3vw 1vw;
+}
+
+footer{
+    background-color: #D83A32;
+    text-align: center;
+    padding: 1vw;
+    margin-top: 7vw;
+}
+
+footer div p{
+    padding: 1px;
+    font-size: 0.8rem;
+}
+
+footer div a{
+    color: #FFFFFF;
+    padding: 3px;
+}
+
+footer div a:hover{
+    color: #E86F31;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+header{
+    flex-direction: column;
+    text-align: center;
+}
+
+header nav ul {
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 10px;
+}
+
+header nav ul li a{
+    font-size: 0.68rem;
+}
+
+header nav ul li a:hover{
+    color: #FFFFFF;
+}
+
+section.banner div.banner{
+    text-align: center;
+    padding: 2vw;
+    display: inline-block;
+    margin: 4vw;
+    right: 0%;
+    left: 0%;
+    bottom: 30%;
+}
+
+
+section.processos >div{
+    text-align: center;
+}
+
+section.processos div.fundo div.maior{
+    flex-direction: column;
+}
+
+section.processos div.fundo div.maior img{
+    width: 100%;
+    height: 100%;
+}
+
+section.processos div.fundo div.maior div.texto{
+    width: 100%;
+}
+
+section.diferenca >div{
+    text-align: center;
+}
+
+section.diferenca div.fundo ul{
+    flex-direction: column;
+}
+
+section.diferenca div.fundo ul li{
+    width: 100%;
+}
+
+section.diferenca div.fundo ul li h3{
+    display: inline-block;
+}
+
+section.diferenca div.fundo img{
+    width: 70%;
+    padding: 2vw;
+}
+
+section.gases >div{
+    text-align: center;
+}
+section.gases div.fundo img{
+    width: 70%;
+    height: 60%;
+}
+
+section.video div.fundo div.video{
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding: 2vw 0 0 0;
+}
+
+footer div p{
+    font-size: 0.7rem;
+}
+
+footer div a:hover{
+    color: #FFFFFF;
+}
+
+
+
+}

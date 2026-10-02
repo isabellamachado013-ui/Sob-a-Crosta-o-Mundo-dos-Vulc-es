@@ -1,0 +1,997 @@
+html {
+  font-size: clamp(1rem, calc(0.5rem + 1vw), 4rem);
+}
+
+h1, h2, h3, h4, h5{
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    line-height: 1.15;
+}
+
+body{
+    background-color: #A1A1A1;
+}
+
+header{
+    background-color: #D83A32;
+    padding: 0 4vw 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 29%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 2vw;
+    align-items: center;
+}
+
+header nav ul li a{
+    font-size: 0.75rem;
+    padding: 2px;
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+
+header nav ul li a:hover{
+    color: #E86F31;
+}
+
+section.banner{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+
+section.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+section.banner div.banner{
+    position: absolute;
+    left: 10%;
+    bottom: 25%;
+    background-color: rgba(211, 211, 211, 0.2);
+    padding: 10px 20px;
+}
+
+section.banner h1{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+section.localizacao{
+    text-align: center;
+}
+
+section.localizacao h2{
+     font-size: 2rem;
+    font-weight: 500;
+    color: #D83A32;
+    margin: 3vw;
+    padding: 1vw 2vw;
+    background-color: rgba(209, 204, 196, 0.7);
+    display: inline-block;
+}
+
+section.localizacao > div{
+      background-color: #D6D0C8;
+    text-align: left;
+    border-radius: 2vw;
+    padding: 3vw;
+}
+
+section.localizacao div.parte{
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+section.localizacao div.parte p{
+    width: 90%;
+    padding: 0 0 1vw 5vw;
+}
+
+section.localizacao div.parte div.texto p span{
+    color: #E86F31;
+}
+
+section.localizacao div.parte img{
+    width: 50%;
+    border: 2px solid #D83A32;
+}
+
+section.localizacao div.parte div.maior img{
+    width: 50%;
+    padding: 1vw;
+}
+
+section.localizacao div.fundo p{
+    padding: 0 4vw 3vw 4vw;
+}
+
+section.localizacao div.fundo ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 3vw;
+}
+
+section.localizacao div.parte hr.linha{
+    color: #EBBA3B;
+    margin: 2vw 2vw 3vw 2vw;
+    border: 1px solid #EBBA3B;
+}
+
+section.partes div.fundo hr.linha{
+    color: #EBBA3B;
+    margin: 2vw 2vw 3vw 2vw;
+    border: 1px solid #EBBA3B;
+}
+
+section.partes div.fundo img{
+    width: 60%;
+    height: 50%;
+    display: block;
+    margin: auto;
+}
+
+section.partes div.fundo ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 3vw;
+}
+
+section.partes div.fundo ul li{
+    background-color: #A1A1A1;
+    text-align: center;
+    border-radius: 3vw;
+}
+
+section.partes div.fundo ul li h3{
+    font-size: 1.18rem;
+    border-bottom: 2px solid #E86F31;
+    margin: 2vw;
+}
+
+section.partes div.fundo ul li p{
+    padding: 0 2vw 2vw 2vw;
+    font-size: 0.85rem;
+}
+
+section.partes div.fundo ul li h3{
+    font-size: 1.18rem;
+    border-bottom: 2px solid #E86F31;
+    margin: 2vw;
+}
+
+
+section.partes div.fundo ul li p{
+    padding: 0 2vw 2vw 2vw;
+    font-size: 0.85rem;
+}
+
+
+section.partes{
+    text-align: center;
+}
+
+section.partes > div{
+    background-color: #D6D0C8;
+    text-align: left;
+    border-radius: 2vw;
+    padding: 3vw;
+}
+
+section.partes h2{
+     font-size: 2rem;
+    font-weight: 500;
+    color: #D83A32;
+    margin: 3vw;
+    padding: 1vw 2vw;
+    background-color: rgba(209, 204, 196, 0.7);
+    display: inline-block;
+}
+
+section.placas{
+    text-align: center;
+}
+
+section.placas div.fundo div.texto{
+    flex-direction: column;
+}
+
+section.placas div.fundo div.texto p{
+    padding: 1vw 0 1vw 0vw;
+    width: 80%;
+}
+
+section.placas div.fundo p{
+    padding: 2vw 6vw;
+}
+
+section.placas div.fundo div.img img{
+    width: 60%;
+    height: 50%;
+    display: block;
+    margin: auto;
+}
+
+section.placas div.fundo div{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 0 3vw 3vw;
+    align-items: center;
+}
+
+section.placas div.parte{
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+section.placas div.parte p{
+    width: 90%;
+    padding: 0 0 1vw 5vw;
+}
+
+section.placas div.parte div.texto p span{
+    color: #E86F31;
+}
+
+section.placas div.fundo hr.linha{
+    color: #EBBA3B;
+    margin: 2vw 2vw 3vw 2vw;
+    border: 1px solid #EBBA3B;
+}
+
+section.placas h2{
+     font-size: 2rem;
+    font-weight: 500;
+    color: #D83A32;
+    margin: 3vw;
+    padding: 1vw 2vw;
+    background-color: rgba(209, 204, 196, 0.7);
+    display: inline-block;
+}
+
+section.placas > div{
+      background-color: #D6D0C8;
+    text-align: left;
+    border-radius: 2vw;
+    padding: 3vw;
+}
+
+section.placas div.parte{
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+section.placas div.parte p{
+    width: 90%;
+    padding: 0 0 1vw 5vw;
+}
+
+section.placas div.parte div.texto p span{
+    color: #E86F31;
+}
+
+section.placas div.parte img{
+    width: 600px;
+    height: auto;
+    border: 2px solid #D83A32;
+    margin: 3vw 15vw 3vw 3vw;
+}
+
+section.placas div.parte div.maior img{
+    width: 50%;
+    padding: 1vw;
+}
+
+section.placas div.fundo p{
+    padding: 0 4vw 3vw 4vw;
+}
+
+section.placas div.fundo ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 3vw;
+}
+
+section.placas div.fundo img{
+    width: 60%;
+    height: 50%;
+    display: block;
+    margin: auto;
+}
+
+section.tipos{
+    text-align: center;
+}
+
+section.tipos h2{
+     font-size: 2rem;
+    font-weight: 500;
+    color: #D83A32;
+    margin: 3vw;
+    padding: 1vw 2vw;
+    background-color: rgba(209, 204, 196, 0.7);
+    display: inline-block;
+}
+
+section.tipos > div{
+    background-color: #D6D0C8;
+    text-align: left;
+    border-radius: 2vw;
+    padding: 3vw;
+}
+
+section.tipos div.fundo hr.linha{
+    color: #EBBA3B;
+    margin: 2vw 2vw 3vw 2vw;
+    border: 1px solid #EBBA3B;
+}
+
+section.tipos div.fundo div.parte{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+    align-items: center;
+}
+
+section.tipos div.fundo div.parte img{
+    width: 50%;
+    padding: 2vw;
+}
+
+section.tipos div.fundo div.parte div.texto{
+    width: 50%;
+}
+
+section.tipos div.fundo div.parte div.texto h3{
+    color: #D83A32;
+    padding: 2vw;
+    font-size: 1.2rem;
+}
+
+section.tipos div.fundo div.parte div.texto{
+    padding: 2vw;
+}
+
+section.tipos div.fundo div.maiorr{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+    align-items: center;
+}
+
+section.tipos div.fundo div.maiorr img{
+    width: 50%;
+    padding: 2vw;
+}
+
+section.tipos div.fundo div.maiorr div.texto{
+    width: 50%;
+}
+
+section.tipos div.fundo div.maiorr div.texto h3{
+    color: #D83A32;
+    padding: 2vw;
+    font-size: 1.2rem;
+}
+
+section.tipos div.fundo div.maiorr div.texto{
+    padding: 2vw;
+}
+
+section.erupcao div.parte div.maiorr div.texto h3{
+    color: #D83A32;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+section.caldeiras h2{
+     font-size: 2rem;
+    font-weight: 500;
+    color: #D83A32;
+    margin: 3vw;
+    padding: 1vw 2vw;
+    background-color: rgba(209, 204, 196, 0.7);
+    display: inline-block;
+}
+
+section.caldeiras div.fundo p{
+    padding: 3vw 3vw 1vw 3vw;
+}
+
+section.caldeiras div.fundo p span{
+    color: #E86F31;
+}
+
+section.caldeiras{
+    text-align: center;
+}
+
+section.caldeiras div.fundo hr.linha{
+    color: #EBBA3B;
+    margin: 2vw 2vw 3vw 2vw;
+    border: 1px solid #EBBA3B;
+}
+
+section.caldeiras >div{
+    background-color: #D6D0C8;
+    text-align: left;
+    border-radius: 2vw;
+    padding: 3vw;
+}
+
+section.caldeiras div.fundo img{
+    width: 60%;
+    padding: 3vw;
+    display: block;
+    margin: auto;
+}
+
+section.submarinos h2{
+     font-size: 2rem;
+    font-weight: 500;
+    color: #D83A32;
+    margin: 3vw;
+    padding: 1vw 2vw;
+    background-color: rgba(209, 204, 196, 0.7);
+    display: inline-block;
+}
+
+section.submarinos{
+    text-align: center;
+}
+
+section.submarinos div.fundo hr.linha{
+    color: #EBBA3B;
+    margin: 2vw 2vw 3vw 2vw;
+    border: 1px solid #EBBA3B;
+}
+
+section.submarinos > div{
+    background-color: #D6D0C8;
+    text-align: left;
+    border-radius: 2vw;
+    padding: 3vw;
+}
+
+section.submarinos div.fundo ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw; 
+    padding: 3vw 5vw;
+}
+
+section.submarinos div.fundo p{
+    padding: 3vw;
+}
+
+section.atividade h2{
+     font-size: 2rem;
+    font-weight: 500;
+    color: #D83A32;
+    margin: 3vw;
+    padding: 1vw 2vw;
+    background-color: rgba(209, 204, 196, 0.7);
+    display: inline-block;
+}
+
+section.atividade{
+    text-align: center;
+}
+
+section.atividade div.fundo hr.linha{
+    color: #EBBA3B;
+    margin: 2vw 2vw 3vw 2vw;
+    border: 1px solid #EBBA3B;
+}
+
+section.atividade > div{
+    background-color: #D6D0C8;
+    text-align: left;
+    border-radius: 2vw;
+    padding: 3vw;
+}
+
+section.atividade div.fundo img{
+    width: 60%;
+    padding: 3vw;
+    display: block;
+    margin: auto;
+}
+
+section.atividade div.fundo ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 3vw;
+}
+
+section.atividade div.fundo ul li{
+    background-color: #A1A1A1;
+    width: 60%;
+    text-align: center;
+    border-radius: 3vw;
+}
+
+section.atividade div.fundo ul li h3{
+    font-size: 1.18rem;
+    border-bottom: 2px solid #E86F31;
+    margin: 2vw;
+}
+
+section.atividade div.fundo ul li p{
+    padding: 0 2vw 2vw 2vw;
+    font-size: 0.85rem;
+}
+
+section.erupcao h2{
+     font-size: 2rem;
+    font-weight: 500;
+    color: #D83A32;
+    margin: 3vw;
+    padding: 1vw 2vw;
+    background-color: rgba(209, 204, 196, 0.7);
+    display: inline-block;
+}
+
+section.erupcao{
+    text-align: center;
+}
+
+section.erupcao div.fundo hr.linha{
+    color: #EBBA3B;
+    margin: 2vw 2vw 3vw 2vw;
+    border: 1px solid #EBBA3B;
+}
+
+section.erupcao > div{
+    background-color: #D6D0C8;
+    text-align: left;
+    border-radius: 2vw;
+    padding: 3vw;
+}
+
+section.erupcao div.fundo div.parte{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+    align-items: center;
+}
+
+section.erupcao div.fundo div.parte img{
+    width: 50%;
+    padding: 2vw;
+}
+
+section.erupcao div.fundo div.parte div.texto{
+    width: 50%;
+}
+
+section.erupcao div.fundo div.parte div.texto h3{
+    color: #D83A32;
+    padding: 2vw;
+    font-size: 1.2rem;
+}
+
+section.erupcao div.fundo div.parte div.texto{
+    padding: 2vw;
+}
+
+section.erupcao div.fundo div.maiorr{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+    align-items: center;
+}
+
+section.erupcao div.fundo div.maiorr img{
+    width: 50%;
+    padding: 2vw;
+}
+
+section.erupcao div.fundo div.maiorr div.texto{
+    width: 50%;
+}
+
+section.erupcao div.fundo div.maiorr div.texto h3{
+    color: #D83A32;
+    padding: 2vw;
+    font-size: 1.2rem;
+}
+
+section.erupcao div.fundo div.maiorr div.texto{
+    padding: 2vw;
+}
+
+section.limites h2{
+     font-size: 2rem;
+    font-weight: 500;
+    color: #D83A32;
+    margin: 3vw;
+    padding: 1vw 2vw;
+    background-color: rgba(209, 204, 196, 0.7);
+    display: inline-block;
+}
+
+section.limites{
+    text-align: center;
+}
+
+section.limites div.fundo hr.linha{
+    color: #EBBA3B;
+    margin: 2vw 2vw 3vw 2vw;
+    border: 1px solid #EBBA3B;
+}
+
+section.limites > div{
+    background-color: #D6D0C8;
+    text-align: left;
+    border-radius: 2vw;
+    padding: 3vw;
+}
+
+section.limites h3{
+    color: #E86F31;
+    padding: 4vw;
+    font-size: 1.3rem;
+}
+
+section.limites div.fundo p{
+    padding: 0 3vw 3vw 3vw;
+}
+
+section.limites div.fundo img{
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding: 3vw;
+}
+
+section.hotspots h2{
+     font-size: 2rem;
+    font-weight: 500;
+    color: #D83A32;
+    margin: 3vw;
+    padding: 1vw 2vw;
+    background-color: rgba(209, 204, 196, 0.7);
+    display: inline-block;
+}
+
+section.hotspots{
+    text-align: center;
+}
+
+section.hotspots div.fundo hr.linha{
+    color: #EBBA3B;
+    margin: 2vw 2vw 3vw 2vw;
+    border: 1px solid #EBBA3B;
+}
+
+section.hotspots > div{
+    background-color: #D6D0C8;
+    text-align: left;
+    border-radius: 2vw;
+    padding: 3vw;
+}
+
+section.hotspots div.fundo img{
+    width: 60%;
+    padding: 3vw;
+    display: block;
+    margin: auto;
+}
+
+section.hotspots div.fundo p{
+    padding: 3vw;
+}
+
+footer{
+    background-color: #D83A32;
+    text-align: center;
+    padding: 1vw;
+    margin-top: 7vw;
+}
+
+footer div p{
+    padding: 1px;
+    font-size: 0.8rem;
+}
+
+footer div a{
+    color: #FFFFFF;
+    padding: 3px;
+}
+
+footer div a:hover{
+    color: #E86F31;
+}
+
+@media screen and (max-width: 600px) {
+
+header{
+    flex-direction: column;
+    text-align: center;
+}
+
+header nav ul {
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 10px;
+}
+
+header nav ul li a{
+    font-size: 0.68rem;
+}
+
+header nav ul li a:hover{
+    color: #FFFFFF;
+}
+
+section.banner div.banner{
+    text-align: center;
+    padding: 2vw;
+    display: inline-block;
+    margin: 4vw;
+    right: 0%;
+    left: 0%;
+    bottom: 30%;
+}
+
+section.localizacao >div{
+    text-align: center;
+}
+
+section.localizacao div.parte {
+    flex-direction: column;
+    gap: 0;
+}
+
+section.localizacao div.parte p{
+    text-align: center;
+    width: 100%;
+}
+
+section.localizacao div.parte img{
+    width: 50%;
+    margin: 2vw;
+}
+
+section.localizacao div.fundo p{
+    padding: 3vw;
+    font-size: 0.9rem;
+}
+
+section.partes div.fundo ul{
+    flex-direction: column;
+    padding: 3vw;
+}
+
+section.partes div.fundo ul li{
+    gap: 4vw;    
+}
+
+section.partes div.fundo ul li h3{
+    font-size: 1.1rem;
+    margin: 3vw;
+    display: inline-block;
+}
+
+section.partes div.fundo img{
+    padding: 3vw;
+}
+
+section.placas >div{
+    text-align: center;
+}
+
+section.placas div.fundo div{
+    flex-direction: column-reverse;
+    padding: 3vw;
+}
+
+section.placas div.fundo div img{
+    width: 150px;
+    height: 200px;
+}
+
+section.placas div.fundo div.texto p{
+    padding: 2vw;
+    width: 100%;
+}
+
+section.tipos >div{
+    text-align: center;
+}
+
+section.tipos div.fundo div.parte{
+    flex-direction: column-reverse;
+}
+
+section.tipos div.fundo div.parte div.texto{
+    width: 100%;
+}
+
+section.tipos div.fundo div.maiorr{
+    flex-direction: column;
+}
+
+section.tipos div.fundo div.maiorr img{
+    width: 50%;
+}
+
+section.tipos div.fundo div.maiorr div.texto{
+    width: 100%;
+}
+
+section.caldeiras >div{
+    text-align: center;
+}
+
+section.caldeiras div.parte {
+    flex-direction: column;
+    gap: 0;
+}
+
+section.caldeiras div.parte p{
+    text-align: center;
+    width: 100%;
+    margin: 3vw;
+}
+
+section.caldeiras div.parte img{
+    width: 50%;
+}
+
+section.caldeiras div.fundo p{
+    padding: 3vw;
+    font-size: 0.9rem;
+}
+
+section.submarinos >div{
+    text-align: center;
+}
+
+section.submarinos div.parte {
+    flex-direction: column;
+    gap: 0;
+}
+
+section.submarinos div.parte p{
+    text-align: center;
+    width: 100%;
+    margin: 3vw;
+}
+
+section.submarinos div.parte img{
+    width: 200px;
+    margin: 2vw;
+}
+
+section.submarinos div.fundo p{
+    padding: 3vw;
+    font-size: 0.9rem;
+}
+
+section.submarinos div.parte div.texto img{
+    width: 60%;
+    padding: 1vw;
+}
+
+section.submarinos div.parte div.maiorr img{
+    width: 60%;
+    padding: 1vw;
+}
+
+section.atividade div.fundo ul{
+    align-items: center;
+    flex-direction: column;
+    padding: 2vw;
+}
+
+section.atividade div.fundo ul li{
+    width: 100%;    
+    gap: 4vw;
+}
+
+section.atividade div.fundo ul li h3{
+    font-size: 1.1rem;
+    margin: 3vw;
+    display: inline-block;
+}
+
+section.erupcao >div{
+    text-align: center;
+}
+
+section.erupcao div.fundo div.parte{
+    flex-direction: column-reverse;
+}
+
+section.erupcao div.fundo div.parte div.texto{
+    width: 100%;
+}
+
+section.erupcao div.fundo div.maiorr{
+    flex-direction: column;
+}
+
+section.erupcao div.fundo div.maiorr img{
+    width: 50%;
+}
+
+section.erupcao div.fundo div.maiorr div.texto{
+    width: 100%;
+}
+
+section.limites >div{
+    text-align: center;
+}
+
+section.limites div.parte {
+    flex-direction: column;
+    gap: 0;
+}
+
+section.limites div.parte p{
+    text-align: center;
+    width: 100%;
+    margin: 3vw;
+}
+
+section.limites div.parte img{
+    width: 200px;
+    margin: 2vw;
+}
+
+section.limites div.fundo p{
+    padding: 3vw;
+    font-size: 0.9rem;
+}
+
+section.hotspots >div{
+    text-align: center;
+}
+
+section.hotspots div.fundo div{
+    flex-direction: column-reverse;
+    padding: 3vw;
+}
+
+section.hotspots div.fundo div img{
+    width: 150px;
+    height: 200px;
+}
+
+section.hotspots div.fundo div.texto p{
+    padding: 2vw;
+    width: 100%;
+}
+
+footer div p{
+    font-size: 0.7rem;
+}
+
+footer div a:hover{
+    color: #FFFFFF;
+}
+
+}

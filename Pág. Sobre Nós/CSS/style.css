@@ -1,0 +1,372 @@
+html {
+  font-size: clamp(1rem, calc(0.5rem + 1vw), 4rem);
+}
+
+h1, h2, h3, h4, h5{
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    line-height: 1.15;
+}
+
+body{
+    background-color: #A1A1A1;
+}
+
+header{
+    background-color: #D83A32;
+    padding: 0 4vw 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 29%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 2vw;
+    align-items: center;
+}
+
+header nav ul li a{
+    font-size: 0.75rem;
+    padding: 2px;
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+
+header nav ul li a:hover{
+    color: #E86F31;
+}
+
+section.banner{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+
+section.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+section.banner div.banner{
+    position: absolute;
+    left: 10%;
+    bottom: 25%;
+    background-color: rgba(211, 211, 211, 0.2);
+    padding: 10px 20px;
+}
+
+section.banner h1{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+section.crosta h2{
+     font-size: 2rem;
+    font-weight: 500;
+    color: #D83A32;
+    margin: 3vw;
+    padding: 1vw 2vw;
+    background-color: rgba(209, 204, 196, 0.7);
+    display: inline-block;
+}
+
+section.crosta{
+    text-align: center;
+}
+
+section.crosta div.fundo hr.linha{
+    color: #EBBA3B;
+    margin: 2vw 2vw 3vw 2vw;
+    border: 1px solid #EBBA3B;
+}
+
+section.crosta > div{
+    background-color: #D6D0C8;
+    text-align: left;
+    border-radius: 2vw;
+    padding: 3vw;
+}
+
+section.crosta div.fundo img{
+    width: 50%;
+    padding: 3vw;
+    display: block;
+    margin: auto;
+}
+
+section.crosta div.fundo p{
+    padding: 3vw;
+}
+
+section.crosta div.parte img{
+    width: 50%;
+    padding: 1vw;
+}
+
+section.crosta div.texto img{
+    width: 50%;
+    padding: 1vw;
+}
+
+section.crosta div.maiorr img{
+    width: 50%;
+    padding: 1vw;
+}
+
+section.crosta div.maiorr div.texto{
+    width: 50%;
+    padding: 1vw;
+}
+
+section.crosta div.maiorr{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+    align-items: center;
+}
+
+section.crosta div.fundo div.parte{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+    gap: 3vw;
+}
+
+section.crosta div.maiorr div{
+    width: 50%;
+    padding: 1vw;
+}
+
+section.crosta div.parte div{
+    width: 50%;
+    padding: 1vw;
+}
+
+section.surgiu h2{
+     font-size: 2rem;
+    font-weight: 500;
+    color: #D83A32;
+    margin: 3vw;
+    padding: 1vw 2vw;
+    background-color: rgba(209, 204, 196, 0.7);
+    display: inline-block;
+}
+
+section.surgiu{
+    text-align: center;
+}
+
+section.surgiu div.fundo hr.linha{
+    color: #EBBA3B;
+    margin: 2vw 2vw 3vw 2vw;
+    border: 1px solid #EBBA3B;
+}
+
+section.surgiu > div{
+    background-color: #D6D0C8;
+    text-align: left;
+    border-radius: 2vw;
+    padding: 3vw;
+}
+
+section.surgiu div.fundo img{
+    width: 50%;
+    padding: 3vw;
+    display: block;
+    margin: auto;
+}
+
+section.surgiu div.fundo p{
+    padding: 3vw;
+}
+
+section.surgiu h3{
+    color: #E86F31;
+    padding: 3vw 3vw 0 3vw;
+}
+
+section.membros h2{
+     font-size: 2rem;
+    font-weight: 500;
+    color: #D83A32;
+    margin: 3vw;
+    padding: 1vw 2vw;
+    background-color: rgba(209, 204, 196, 0.7);
+    display: inline-block;
+}
+
+section.membros{
+    text-align: center;
+}
+
+section.membros div.fundo hr.linha{
+    color: #EBBA3B;
+    margin: 2vw 2vw 3vw 2vw;
+    border: 1px solid #EBBA3B;
+}
+
+section.membros > div{
+    background-color: #D6D0C8;
+    text-align: left;
+    border-radius: 2vw;
+    padding: 3vw;
+}
+
+section.membros div.fundo img{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+}
+
+section.membros div.fundo div.membros1 ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+    gap: 3vw;
+    align-items: center;
+}
+
+section.membros div.fundo div.membros1 ul li h3{
+    color: #E86F31;
+    text-align:center;
+    padding: 3vw 3vw 0 3vw;
+}
+
+section.membros div.fundo div.membros1 ul li p{
+    text-align:center;
+    padding: 1vw;
+}
+
+footer{
+    background-color: #D83A32;
+    text-align: center;
+    padding: 1vw;
+    margin-top: 7vw;
+}
+
+footer div p{
+    padding: 1px;
+    font-size: 0.8rem;
+}
+
+footer div a{
+    color: #FFFFFF;
+    padding: 3px;
+}
+
+footer div a:hover{
+    color: #E86F31;
+}
+
+
+@media screen and (max-width: 600px) {
+
+header{
+    flex-direction: column;
+    text-align: center;
+}
+
+header nav ul {
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 10px;
+}
+
+header nav ul li a{
+    font-size: 0.68rem;
+}
+
+header nav ul li a:hover{
+    color: #FFFFFF;
+}
+
+section.banner div.banner{
+    text-align: center;
+    padding: 2vw;
+    display: inline-block;
+    margin: 4vw;
+    right: 0%;
+    left: 0%;
+    bottom: 30%;
+}
+
+section.crosta >div{
+    text-align: center;
+}
+
+section.crosta div.maiorr div.texto{
+    width: 100%;
+}
+
+section.crosta div.maiorr{
+    flex-direction: column;
+}
+
+section.crosta div.fundo div.parte{
+    flex-direction: column-reverse;
+}
+
+section.crosta div.parte div{
+    width: 100%;
+    padding: 1vw;
+}
+
+section.surgiu >div{
+    text-align: center;
+}
+
+section.surgiu div.fundo div{
+    flex-direction: column-reverse;
+    padding: 3vw;
+}
+
+section.surgiu div.fundo div img{
+    width: 150px;
+    height: 200px;
+}
+
+section.surgiu div.fundo div.texto p{
+    padding: 2vw;
+    width: 100%;
+}
+
+section.membros >div{
+    text-align: center;
+}
+
+section.membros div.fundo div{
+    flex-direction: column-reverse;
+    padding: 3vw;
+}
+
+section.membros div.fundo div img{
+    width: 150px;
+    height: 200px;
+}
+
+section.membros div.fundo div.texto p{
+    padding: 2vw;
+    width: 100%;
+}
+
+footer div p{
+    font-size: 0.7rem;
+}
+
+footer div a:hover{
+    color: #FFFFFF;
+}
+
+}

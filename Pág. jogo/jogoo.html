@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evacuação Vulcânica</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jogo.css">
+</head>
+
+<body>
+    <header class="topo">
+        <div>
+            <span class="icone">🌋</span>
+            <div>
+                <h1>Evacuação Vulcânica</h1>
+                <p>Evacue a população antes que a erupção aconteça.</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="painel">
+            <div><span>⏱️</span> Tempo <strong id="tempo">30</strong>s</div>
+            <div><span>👥</span> Salvas <strong id="salvas">0</strong>/<strong id="total">4</strong></div>
+            <div><span>🌋</span> Lava <strong id="nivel">0</strong>%</div>
+            <div><span>⭐</span> Fase <strong id="fase">1</strong>/3</div>
+        </section>
+
+        <div class="barra">
+            <div id="progresso"></div>
+        </div>
+
+        <section id="jogo" aria-label="Jogo de evacuação vulcânica">
+            <div class="ceu">
+                <span class="nuvem n1">☁️</span>
+                <span class="nuvem n2">☁️</span>
+            </div>
+
+            <div class="montanha">
+                <div class="fumaca">☁️</div>
+                <div class="cone"></div>
+                <div class="cratera"></div>
+                <div class="brilho"></div>
+            </div>
+
+            <div class="arvore a1">🌳</div>
+            <div class="arvore a2">🌳</div>
+            <div class="pedra p1">🪨</div>
+            <div class="pedra p2">🪨</div>
+
+            <div id="zonaSegura">
+                <div class="placa">🏠</div>
+                <strong>ÁREA SEGURA</strong>
+                <small>Evacuação</small>
+            </div>
+
+            <div id="pessoas"></div>
+
+            <div id="lava"></div>
+            <div id="alerta">⚠️ O vulcão está ficando mais ativo!</div>
+
+            <div id="inicio" class="tela">
+                <div class="cartao">
+                    <div class="grande">🌋</div>
+                    <h2>Evacuação Vulcânica</h2>
+                    <p>Clique nas pessoas para fazê-las caminhar até a área segura.</p>
+                    <p><strong>Salve todos antes que o tempo acabe!</strong></p>
+                    <button id="comecar">Começar</button>
+                </div>
+            </div>
+
+            <div id="fim" class="tela escondido">
+                <div class="cartao">
+                    <div id="iconeFim" class="grande">🎉</div>
+                    <h2 id="tituloFim">Parabéns!</h2>
+                    <p id="textoFim"></p>
+                    <button id="proximo">Próxima fase</button>
+                    <button id="jogarNovamente" class="secundario">Jogar novamente</button>
+                </div>
+            </div>
+        </section>
+
+        <p id="mensagem" class="mensagem">
+            Comece o jogo e clique nas pessoas para evacuá-las.
+        </p>
+
+        <section class="explicacao">
+            <h2>🌍 O que este jogo ensina?</h2>
+            <p>
+                Em uma situação de risco vulcânico, a população pode precisar
+                deixar áreas perigosas e seguir para locais seguros. A evacuação
+                deve seguir as orientações das autoridades e os planos de emergência.
+            </p>
+            
+        </section>
+        <section class="voltar">
+            <a href="../Pág. Perguntas Frequêntes/perguntas.html">
+                Voltar ao site
+            </a>
+        </section>
+    </main>
+
+    <script src="js/jogo.js"></script>
+</body>
+</html>
