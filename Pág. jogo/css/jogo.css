@@ -1,22 +1,38 @@
-body {
-    min-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #f1ebe3;
-    color: #30251f;
+html {
+  font-size: clamp(1rem, calc(0.5rem + 1vw), 4rem);
+}
+
+h1, h2, h3, h4, h5{
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    line-height: 1.15;
+}
+
+body{
+    background-color: #A1A1A1;
 }
 
 .topo {
-    padding: 18px 5%;
+    padding: 3px;
     background: #D83A32;
     color: white;
 }
 
 .topo > div {
-    max-width: 1100px;
-    margin: auto;
+    width: 60%;
+    margin: 1vw;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 14px;
+}
+
+.topo div div{
+    white-space: nowrap;
+}
+
+.topo img{
+    width: 40%;
+    text-align: right;
 }
 
 .icone {
@@ -24,9 +40,7 @@ body {
 }
 
 .topo h1 {
-    margin: 0;
-    font-family: Georgia, serif;
-    font-size: clamp(28px, 4vw, 43px);
+    font-size: 2rem;
 }
 
 .topo p {
@@ -46,7 +60,7 @@ main {
 
 .painel div {
     padding: 11px 10px;
-    background: white;
+    background: #D6D0C8;
     border-radius: 12px;
     text-align: center;
     box-shadow: 0 3px 10px #00000018;
@@ -61,7 +75,7 @@ main {
     margin: 10px 0 14px;
     overflow: hidden;
     border-radius: 20px;
-    background: #d6cec4;
+    background: #D6D0C8;
 }
 
 #progresso {
@@ -284,7 +298,7 @@ main {
 .explicacao {
     margin-top: 20px;
     padding: 18px 22px;
-    background: white;
+    background: #D6D0C8;
     border-radius: 15px;
     box-shadow: 0 3px 12px #00000015;
 }
@@ -299,9 +313,9 @@ main {
 }
 
 .voltar a{
-    background-color: #A1A1A1;
+    background-color: #D6D0C8;
     color: #D83A32;
-    padding: 2vw;
+    padding: 1vw;
     display: inline-block;
     border-radius: 3vw;
     font-size: 1.3rem;
@@ -328,11 +342,19 @@ main {
     display: none;
 }
 
+.mensagem{
+    padding: 1vw;
+    font-size: 1rem;
+    background-color: #D6D0C8;
+    border-radius: 20px;
+    margin: 2vw 0;
+}
+
 .cartao {
     width: min(430px, 88%);
     padding: 28px;
     text-align: center;
-    background: #fffaf4;
+    background: #D6D0C8;
     border-radius: 20px;
     box-shadow: 0 12px 35px #00000045;
 }
@@ -343,7 +365,6 @@ main {
 
 .cartao h2 {
     margin: 8px 0;
-    font-family: Georgia, serif;
 }
 
 .cartao button {
@@ -351,8 +372,8 @@ main {
     padding: 12px 23px;
     border: 0;
     border-radius: 10px;
-    background: #7d2e22;
-    color: white;
+    background: #D83A32;
+    color: #FFFF;
     font-weight: bold;
     cursor: pointer;
 }
@@ -362,7 +383,19 @@ main {
 }
 
 .cartao .secundario {
-    background: #657177;
+    background: #D83A32;
+}
+
+footer{
+    background-color: #D83A32;
+    text-align: center;
+    padding: 1vw;
+    margin-top: 7vw;
+}
+
+footer div p{
+    padding: 1px;
+    font-size: 0.8rem;
 }
 
 @media (max-width: 750px) {
