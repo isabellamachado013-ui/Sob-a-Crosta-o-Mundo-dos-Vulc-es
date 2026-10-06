@@ -375,6 +375,7 @@ footer div p{
 footer div a{
     color: #FFFFFF;
     padding: 3px;
+    font-size: 0.8rem;
 }
 
 footer div a:hover{
