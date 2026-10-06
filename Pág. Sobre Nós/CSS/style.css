@@ -249,6 +249,11 @@ section.membros div.fundo div.membros1 ul li p{
     padding: 1vw;
 }
 
+section.membros div.fundo div.membros2 ul li img{
+    width: 250px;
+    height: 300px;
+}
+
 footer{
     background-color: #D83A32;
     text-align: center;
@@ -360,6 +365,11 @@ section.membros div.fundo div img{
 section.membros div.fundo div.texto p{
     padding: 2vw;
     width: 100%;
+}
+
+section.membros div.fundo div.membros2 ul li img{
+    width: 300px;
+    height: 150px;
 }
 
 footer div p{
